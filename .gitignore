@@ -34,3 +34,6 @@
 
 # MacOs
 *.DS_Store
+
+# Build directory
+Debug/
