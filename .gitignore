@@ -36,3 +36,9 @@ Debug/
 # Debug files
 *.dSYM/
 *.su
+
+# MacOs
+*.DS_Store
+
+# Build directory
+Debug/
