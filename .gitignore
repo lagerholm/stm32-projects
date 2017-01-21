@@ -28,6 +28,11 @@
 *.x86_64
 *.hex
 
+# MacOs
+*.DS_Store
+
+# Build directory
+Debug/
 # Debug files
 *.dSYM/
 *.su
