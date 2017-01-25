@@ -33,6 +33,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f4xx_hal.h"
+#include "application_main.h"
 
 /* USER CODE BEGIN Includes */
 
@@ -82,6 +83,7 @@ int main(void)
 
   /* USER CODE BEGIN 2 */
   HAL_UART_Transmit(&huart1, "test", 4, 1);
+  applicationMain();
   /* USER CODE END 2 */
 
   /* Infinite loop */
