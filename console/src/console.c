@@ -14,6 +14,8 @@
 #define STDERR_FILENO 2
 
 UART_HandleTypeDef *gHuart;
+uint8_t txChar;
+uint8_t rxChar;
 
 void consoleInit(UART_HandleTypeDef *huart)
 {
